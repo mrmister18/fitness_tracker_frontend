@@ -1,0 +1,28 @@
+.categories {
+    flex: 0 0 256px;
+    display: flex;
+    flex-direction: column;
+}
+.categories a {
+    text-decoration: none;
+    font-family: dosis;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background-color: #255;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+}
+.categories a:hover {
+    text-decoration: underline;
+    font-family: dosis;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background-color: #55252A;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px;
+    box-shadow: 0 2px 5px -2px black;
+}

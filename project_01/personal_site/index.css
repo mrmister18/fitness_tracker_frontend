@@ -1,0 +1,24 @@
+main {
+    text-align: center;
+}
+q {
+    font-family: "Bangers", cursive;
+    font-size: 30px;
+    background-color: blue;
+}
+.headshot {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 132px;
+    height: auto;
+}
+.uncle {
+    margin: auto;
+    width: 150px;
+    height: auto;
+    display: block;
+}
+.headshot, .uncle {
+    border: 5px black solid;
+}

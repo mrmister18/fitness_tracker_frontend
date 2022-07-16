@@ -1,0 +1,21 @@
+.one {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+#two {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+.three {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+div {
+    margin: auto;
+}
+.one, #two, .three {
+    border: 5px solid black;
+}

@@ -1,0 +1,18 @@
+#photography {
+    width: 170px;
+    height: auto;
+    float: right;
+}
+.science {
+    width: 230px;
+    height: auto;
+    float: left;
+}
+.wrestling {
+    width: 230px;
+    height: auto;
+    float: left;
+}
+#photography, .science, .wrestling {
+    border: 5px solid black;
+}

@@ -1,0 +1,64 @@
+/* Site-wide */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  Header {
+    background-color: blanchedalmond;
+    margin: 5px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+h3 {
+    background-color:darkgoldenrod;
+}
+p {
+    background-color: lavender;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+nav {
+    display: flex;
+}
+  @media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .card {
+    flex-direction: column;
+    width: 100%;
+  }
+  h3, p {
+    font-size: 34px;
+  }
+}
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
+  /* Main */
+  
+  /* Footer */
+  
+  /* Media Queries */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a nav bar</title>
+    <style>
+        header {
+            background-color: #333333;
+        }
+
+        .nav {
+            height: 80px;
+            margin: 0 auto;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .nav-title {
+            margin-left: 20px;
+        }
+
+        .btn {
+            height: 35px;
+            width: 100px;
+            background-color: #17a2b8;
+            color: #ffffff;
+            border: none;
+            font-size: 16px;
+            box-shadow: 5px 5px #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <nav class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

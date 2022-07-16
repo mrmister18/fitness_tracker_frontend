@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content, .headline {
+    padding: 8px;
+
+}
+.headline {
+    background-color: darkgray;
+}
+section {
+    width: 47%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.content {
+    overflow: auto;
+    background-color: lightgray;
+}
+.location {
+    color: gray;
+}
+.user-profile {
+    width: 770px;
+    box-shadow: 3px 3px 3px black;
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+.name {
+    font-size: 35px;
+    font-weight: bold;
+}
+h3 {
+    font-size: x-large;
+    border-bottom: 3px solid black;
+    font-weight: 1000;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.cell {
+    display: flex;
+    flex-basis: 120px;
+    /* border: 3px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    display: flex;
+    height: 360px;
+    width: 360px;
+    flex-wrap: wrap;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.cell:nth-child(3n+2) {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.cell:nth-child(n+4):nth-child(-n+6) {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}

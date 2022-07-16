@@ -1,0 +1,43 @@
+.message-form {
+    width: 480px;
+    font-family: Georgia, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    border: 1px solid black;
+}
+.message-form-inputs, .message-form-actions {
+    padding: 10px;
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.message-form-inputs > * {
+    display: block;
+    width: 100%;
+}
+input, textarea {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label {
+    margin-top: 5px;
+}
+.message-form-actions {
+    background-color: darkgray;
+    padding: 10px;
+    overflow: auto;
+}
+button {
+    float: right;
+    background-color: aqua;
+    padding: 8px;
+    border: none;
+    box-shadow: 2px 2px black;
+    font-size: 1em;
+    margin-left: 10px;
+}
+i.material-icons.small {
+    font-size: 18px;
+    margin-left: 8px;
+}
+.message-form-actions button:hover {
+    background-color: aquamarine;
+}

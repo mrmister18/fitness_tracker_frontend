@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main {
+    margin: 0 auto;
+    background-color: red;
+    padding: 162px 0;
+    width: 85%;
+    height: 100%;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    width: 100%;
+    z-index: 99;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+}
+.name {
+    float: left;
+    padding: 0 0 0 15px;
+    font-size: 56px;
+}
+nav {
+    float: right;
+    padding: 50px;
+    font-size: 35px;
+    color: white;
+}
+span * {
+    border: 3px solid black;
+    font-size: white;
+    background-color: black;
+}
+h2 {
+    background-color: blue;
+}
+h1 {
+    background-color: blue;
+}
+.second {
+    float: right;
+}
+a:visited {
+    color: white;
+}
+.red {
+    background-color: red;
+    border-bottom: 5px;
+}
+p {
+    margin: 10px;
+}
+footer img {
+    width: 33px;
+    height: auto;
+}
