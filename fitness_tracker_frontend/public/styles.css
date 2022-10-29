@@ -1,0 +1,22 @@
+span {
+    margin: 5px;
+}
+
+.title {
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav {
+    background-color: turquoise;
+    text-align: right;
+}
+
+.post, .message {
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.messageForm {
+    width: 50%;
+}
