@@ -3,8 +3,7 @@ import { Link, Route, Routes, BrowserRouter, useParams } from "react-router-dom"
 import React, { useState, useEffect } from 'react';
 import { Home, Activities, Routines, MyRoutines, Login, Signup } from './components'
 
-const Nav = (props) => {
-    const {loginToken, setLoginToken} = props
+const Nav = ({loginToken, setLoginToken}) => {
     return <nav>
     <span className="title">Fitness Trackr</span>
     <Link to="/"><span>Home</span></Link>
@@ -25,7 +24,7 @@ const App = () => {
             <Route path="/" element= {<Home loginToken={loginToken} />}></Route>
             <Route path="/routines" element= {<Routines />}></Route>
             <Route path="/myRoutines" element= {<MyRoutines />}></Route>
-            <Route path="/activities" element= {<Activities />}></Route>
+            <Route path="/activities" element= {<Activities loginToken={loginToken} />}></Route>
             <Route path="/login" element= {<Login setLoginToken={setLoginToken} />}></Route>
             <Route path='/signup' element= {<Signup setLoginToken={setLoginToken} />}></Route>
         </Routes>
