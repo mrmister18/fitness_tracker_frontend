@@ -21,15 +21,16 @@ const Routines = (props) => {
         <h1>Routines</h1>
         {routines.map((routine) =>{
             return <div className='routine' key={routine.id}>
-                    <h2>{routine.name}</h2>
-                    <h3>{routine.goal}</h3>
-                    <p>{routine.creatorName}</p>
+                    <h2>Routine Name: {routine.name}</h2>
+                    <h3>Goal: {routine.goal}</h3>
+                    <p>By: {routine.creatorName}</p>
+                    <h2>Routine Activities</h2>
                     {routine.activities.map((activity) =>{
             return <div className='activity' key={activity.id}>
-                    <h2>{activity.name}</h2>
-                    <h3>{activity.description}</h3>
-                    <p>{activity.duration}</p>
-                    <p>{activity.count}</p>
+                    <h2>Activity Name{activity.name}</h2>
+                    <h3>Description: {activity.description}</h3>
+                    <p>Duration: {activity.duration}</p>
+                    <p>Activity: {activity.count}</p>
                 </div>
         })}
                 </div>

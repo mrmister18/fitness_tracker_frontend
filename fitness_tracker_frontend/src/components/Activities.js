@@ -51,8 +51,8 @@ const Activities = ({loginToken}) => {
         
         {activities.map((activity) =>{
             return <div className='activity' key={activity.id}>
-                    <h2>{activity.name}</h2>
-                    <h3>{activity.description}</h3>
+                    <h2>Name: {activity.name}</h2>
+                    <h3>Description: {activity.description}</h3>
                 </div>
         })}
     </div>
